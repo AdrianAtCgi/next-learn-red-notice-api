@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node-dev --respawn ./src/app.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test:dev": "jest --watchAll"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
